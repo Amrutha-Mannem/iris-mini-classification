@@ -15,3 +15,5 @@ model.fit(x_train,y_train)
 ypred=model.predict(x_test)
 print("accuracy:",accuracy_score(y_test,ypred))
 </pre>
+output:accuracy: 1.0
+
